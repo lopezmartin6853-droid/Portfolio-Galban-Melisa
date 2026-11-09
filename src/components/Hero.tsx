@@ -79,11 +79,13 @@ export const Hero: React.FC = () => {
               {/* Authentic documentary workshop photograph */}
               <div className="relative overflow-hidden rounded-xl aspect-[4/3] bg-stone-100">
                 <img
-                  src="/src/assets/images/hero_robotics_workshop_1794247712478.jpg"
+                  src="/images/hero-robotica.jpg"
                   alt="Estudiantes en taller de robótica ensamblando un robot móvil con cables, cuaderno de diagramas y placas electrónicas sobre mesa de madera"
                   className="w-full h-full object-cover"
                   loading="eager"
                   referrerPolicy="no-referrer"
+                  width={800}
+                  height={600}
                 />
               </div>
 

@@ -116,6 +116,8 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, onOpenEditGuide })
                           className="w-full h-full object-cover min-h-[280px] lg:min-h-full"
                           loading="lazy"
                           referrerPolicy="no-referrer"
+                          width={800}
+                          height={600}
                         />
                         <div className="absolute inset-0 bg-stone-900/10 group-hover:bg-transparent transition-colors" />
                         <div className="absolute bottom-3 left-3 right-3 bg-white/95 backdrop-blur-sm p-2.5 rounded-lg border border-stone-200 text-[11px] text-stone-600 font-serif italic">
@@ -295,6 +297,10 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, onOpenEditGuide })
                     src={selectedProject.image}
                     alt={selectedProject.imageAlt}
                     className="w-full h-full object-cover"
+                    loading="lazy"
+                    referrerPolicy="no-referrer"
+                    width={800}
+                    height={450}
                   />
                 </div>
               )}

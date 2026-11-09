@@ -40,11 +40,13 @@ export const About: React.FC<AboutProps> = ({ customObjective, onOpenEditGuide }
             <div className="relative bg-[#FAF8F5] p-3 sm:p-4 rounded-2xl border border-stone-200 shadow-sm">
               <div className="relative overflow-hidden rounded-xl bg-stone-100 aspect-[4/5]">
                 <img
-                  src="/assets/aistudio/Retrato_profesional_con_fondo_beige_42f5065c.png"
+                  src="/images/rita-melisa-galban.png"
                   alt="Retrato profesional de Rita Melisa Galbán, docente de robótica educativa"
                   className="w-full h-full object-cover object-top"
                   loading="eager"
                   referrerPolicy="no-referrer"
+                  width={600}
+                  height={750}
                 />
               </div>
 
