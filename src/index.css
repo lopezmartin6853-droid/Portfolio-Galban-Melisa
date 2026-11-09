@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF8F5;
+    color: #1C1917;
+  }
+  
+  h1, h2, h3, .font-serif {
+    font-family: 'Fraunces', Georgia, serif;
+    font-feature-settings: 'opsz' 36;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Subtle workshop paper grid utility */
+.workshop-paper {
+  background-color: #FAF8F5;
+  background-image: 
+    radial-gradient(circle, rgba(28, 25, 23, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+
